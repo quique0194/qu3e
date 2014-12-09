@@ -97,6 +97,7 @@ public:
 	// Used for debug rendering lines, triangles and basic lighting
 	void Render( q3Render* render ) const;
 
+	void *m_userData;
 private:
 	// m_flags
 	enum
@@ -131,7 +132,6 @@ private:
 	i32 m_flags;
 
 	q3Box* m_boxes;
-	void *m_userData;
 	q3Scene* m_scene;
 	q3Body* m_next;
 	q3Body* m_prev;

@@ -30,6 +30,7 @@
 #include "common/q3Types.h"
 #include "scene/q3Scene.h"
 #include "dynamics/q3Body.h"
+#include "dynamics/q3Contact.h"
 #include "collision/q3Box.h"
 #include "math/q3Vec3.h"
 #include "math/q3Mat3.h"
